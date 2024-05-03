@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  line-height: 150%;
+  z-index: 10;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header + section {
+  padding-top: 70px;
+}
+
+section {
+  margin: 0 auto;
+  width: 1200px;
+  height: auto;
+  padding-top: 150px;
+}
+
+.color-blue {
+  color: #59A1FF;
+}
+
+.color-tomato {
+  color: tomato;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.checkbox {
+  cursor: pointer;
+}

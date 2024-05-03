@@ -1,0 +1,112 @@
+.services__title {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.services__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.services__item {
+    width: 380px;
+    height: 85px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.25);
+    cursor: pointer;
+    transition: 0.2s;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.services__item:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.services__item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.services__item:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.services__item:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.services__item:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.services__item:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+.services__item:nth-child(7) {
+    animation-delay: 0.7s;
+}
+
+.services__item:nth-child(8) {
+    animation-delay: 0.8s;
+}
+
+.services__item:nth-child(9) {
+    animation-delay: 0.9s;
+}
+
+.services__name {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.services__item:hover .services__plus {
+    transform: rotate(90deg);
+}
+
+.services__plus {
+    width: 30px;
+    height: 30px;
+    transition: 0.2s;
+}
+.services__plus:hover {
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.services__buttons {
+    width: 1200px;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+
+.services__button {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+}

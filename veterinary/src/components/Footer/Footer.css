@@ -1,0 +1,26 @@
+.footer {
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 1200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer::before {
+    content: "";
+    width: 1200px;
+    height: 1px;
+    background-color: #59A1FF;
+}
+
+.footer__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.footer__bottom {
+    color: #59A1FF;
+}
